@@ -45,6 +45,7 @@ export default function HomePage() {
         <QuotesSection />
         <WhatYouGetSection />
         <EpisodesSection />
+        
         <ProcessSection />
         <InsightsSection />
         <TestimonialsSection />
