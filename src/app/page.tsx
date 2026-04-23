@@ -38,17 +38,17 @@ export default function HomePage() {
       <HeroVideo />
 
       <div ref={contentRef}>
-        <AboutSection />
-        <LatestPodcastSection />
-        <HostSection />
-        <Whythispodcast />
-        <QuotesSection />
+        
         <WhatYouGetSection />
         <EpisodesSection />
         <ProcessSection />
         <InsightsSection />
         <TestimonialsSection />
-
+<AboutSection />
+        <LatestPodcastSection />
+        <HostSection />
+        <Whythispodcast />
+        <QuotesSection />
         {/* ✅ Apply section seedha homepage mein */}
         <section id="apply">
           <ApplyGuestContent />
