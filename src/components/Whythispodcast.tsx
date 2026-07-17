@@ -239,7 +239,7 @@ export default function WhyThisPodcast() {
               viewport={{ once: true }}
               transition={{ delay: 0.8 }}
             >
-              This show is built for those who want more than just motivation —{' '}
+              This show is built for those who want more than just motivation -{' '}
               <span className="text-[#e8c97e] font-semibold">they want direction.</span>
             </motion.p>
 

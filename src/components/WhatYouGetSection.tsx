@@ -123,11 +123,11 @@ export default function WhatYouGetSection() {
             transition={{ delay: 0.2 }}
             className="text-white/50 text-sm md:text-lg max-w-2xl mx-auto"
           >
-            Everything you need to build authority and visibility — all included in one comprehensive package
+            Everything you need to build authority and visibility - all included in one comprehensive package
           </motion.p>
         </div>
 
-        {/* Cards grid — 2 col mobile, 3 col desktop */}
+        {/* Cards grid - 2 col mobile, 3 col desktop */}
         <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6">
           {ITEMS.map((item, i) => (
             <motion.div
@@ -189,7 +189,7 @@ export default function WhatYouGetSection() {
                   {item.title}
                 </h3>
 
-                {/* Description — hidden on mobile, visible md+ */}
+                {/* Description - hidden on mobile, visible md+ */}
                 <p className="hidden md:block text-white/50 text-sm leading-relaxed">
                   {item.desc}
                 </p>
@@ -217,7 +217,7 @@ export default function WhatYouGetSection() {
           ))}
         </div>
 
-        {/* Stats — 2 col mobile, 4 col desktop */}
+        {/* Stats - 2 col mobile, 4 col desktop */}
         
 
         {/* CTA */}

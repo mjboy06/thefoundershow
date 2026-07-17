@@ -71,7 +71,7 @@ export default function AboutSection() {
           viewport={{ once: true, amount: 0.2 }}
           variants={stagger}
         >
-          {/* Left — big heading with badge */}
+          {/* Left - big heading with badge */}
           <motion.div variants={fadeUp} className="relative max-w-5xl">
   
   {/* Tag */}
@@ -98,7 +98,7 @@ export default function AboutSection() {
 
 </motion.div>
 
-          {/* Right — concise copy with visual elements */}
+          {/* Right - concise copy with visual elements */}
           <motion.div variants={fadeUp} className="space-y-8">
             {/* Stats cards */}
             
@@ -107,11 +107,11 @@ export default function AboutSection() {
             <div className="space-y-4 bg-white/5 backdrop-blur-md p-6 rounded-2xl border border-white/10">
   <p className="text-base md:text-lg leading-relaxed text-white/80 font-inter">
     <span className="text-[#e8c97e] font-bold text-xl mr-2">"</span>
-    Welcome to <span className="text-white font-semibold">The Founder Show</span> — a video podcast built around real journeys, not rehearsed success.
+    Welcome to <span className="text-white font-semibold">The Founder Show</span> - a video podcast built around real journeys, not rehearsed success.
   </p>
 
   <p className="text-base md:text-lg leading-relaxed text-white/80 font-inter">
-    This is where India’s founders, entrepreneurs, and business leaders open up about what it really takes to build something meaningful — the wins, the setbacks, and the pivots.
+    This is where India’s founders, entrepreneurs, and business leaders open up about what it really takes to build something meaningful - the wins, the setbacks, and the pivots.
   </p>
 
   <p className="text-base md:text-lg leading-relaxed text-white/80 font-inter">

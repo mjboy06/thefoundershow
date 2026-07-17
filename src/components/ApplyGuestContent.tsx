@@ -127,7 +127,7 @@ export const ApplyGuestContent = () => {
   const handleSubmit = () => {
     if (!validate(3)) return;
     setIsSubmitting(true);
-    const message = `🎙️ *NEW PODCAST GUEST — The Founder Show*\n\n👤 *CONTACT*\n──────────────────\n• Name: ${form.firstName} ${form.lastName}\n• Email: ${form.email}\n• Phone: ${form.phone}\n• Instagram: ${form.instagram || "Not provided"}\n• LinkedIn: ${form.linkedin || "Not provided"}\n\n💼 *WHAT THEY DO*\n──────────────────\n${form.whatYouDo}\n\n📅 *TIMING*\n──────────────────\n• Available: ${form.availability}\n• Timezone: ${form.timezone}\n\n⏰ *Submitted:* ${new Date().toLocaleString('en-IN')}`.trim();
+    const message = `🎙️ *NEW PODCAST GUEST - The Founder Show*\n\n👤 *CONTACT*\n──────────────────\n• Name: ${form.firstName} ${form.lastName}\n• Email: ${form.email}\n• Phone: ${form.phone}\n• Instagram: ${form.instagram || "Not provided"}\n• LinkedIn: ${form.linkedin || "Not provided"}\n\n💼 *WHAT THEY DO*\n──────────────────\n${form.whatYouDo}\n\n📅 *TIMING*\n──────────────────\n• Available: ${form.availability}\n• Timezone: ${form.timezone}\n\n⏰ *Submitted:* ${new Date().toLocaleString('en-IN')}`.trim();
     const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
     if (typeof window !== "undefined") window.open(url, "_blank");
     setTimeout(() => { setIsSubmitting(false); setSubmitted(true); }, 1500);
@@ -286,7 +286,7 @@ export const ApplyGuestContent = () => {
                       <div className="p-4 rounded-xl bg-[#e8c97e]/8 border border-[#e8c97e]/15 flex gap-3">
                         <Sparkles className="w-5 h-5 text-[#e8c97e] shrink-0 mt-0.5" />
                         <p className="text-white/60 text-sm leading-relaxed">
-                          Keep it simple — tell us your story in your own words
+                          Keep it simple - tell us your story in your own words
                         </p>
                       </div>
                     </>

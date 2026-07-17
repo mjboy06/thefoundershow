@@ -15,7 +15,7 @@ const TESTIMONIALS = [
     name: "Dev Patel",
     role: "Co-Founder, LogistIQ",
     stars: 5,
-    text: "What I liked most was the clarity. It wasn’t just talking — it helped me see my own journey more clearly.",
+    text: "What I liked most was the clarity. It wasn’t just talking - it helped me see my own journey more clearly.",
     initial: "DP",
   },
   {
@@ -29,7 +29,7 @@ const TESTIMONIALS = [
     name: "Rohan Verma",
     role: "CEO, CloudKraft",
     stars: 5,
-    text: "It didn’t feel like an interview. It felt like a real conversation — and that made all the difference.",
+    text: "It didn’t feel like an interview. It felt like a real conversation - and that made all the difference.",
     initial: "RV",
   },
 ];
@@ -186,7 +186,7 @@ export default function TestimonialsSection() {
         {/* Main split layout */}
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-12 lg:gap-20 items-start">
 
-          {/* LEFT — Big quote */}
+          {/* LEFT - Big quote */}
           <div className="relative">
 
             {/* Decorative quote mark */}
@@ -261,7 +261,7 @@ export default function TestimonialsSection() {
             </div>
           </div>
 
-          {/* RIGHT — Stacked list */}
+          {/* RIGHT - Stacked list */}
           <div className="hidden lg:flex flex-col gap-2 pt-1">
             {TESTIMONIALS.map((item, i) => (
               <motion.button
