@@ -9,23 +9,23 @@ const QUOTES = [
     color: "#e8c97e",
   },
   {
-    quote: "People see growth charts. They don’t see the nights you’re figuring out salaries with barely anything in the account.",
+    quote: "I said yes to everything for the first two years. It nearly broke me before it built anything.",
     color: "#a78bfa",
   },
   {
-    quote: "It’s not the failure that gets to you. It’s having to show up the next day like nothing shook you.",
+    quote: "Nobody warns you that the loneliest year is usually the one right after you finally raise money.",
     color: "#4ade80",
   },
   {
-    quote: "Everyone celebrates the launch. No one prepares you for what it takes to keep it running.",
+    quote: "I used to think asking for help was a weakness. Now I think it is the only reason we are still standing.",
     color: "#f87171",
   },
   {
-    quote: "You don’t realise how heavy decisions are until you’re the one making them - and living with them.",
+    quote: "The version of me on LinkedIn and the version of me at two in the morning were two different people for a long time.",
     color: "#60a5fa",
   },
   {
-    quote: "The best pitch deck is a profitable business.",
+    quote: "We celebrated the launch for one evening. By the next morning we were already worried about the thing that could kill us.",
     color: "#fbbf24",
   },
 ];
